@@ -5,25 +5,25 @@ package nestedClasses;
  */
 public class OuterClass {
 
-	class InnerClass {
+    class InnerClass {
 
-		class InnerInnerClass {
+        class InnerInnerClass {
 
-		}
-	}
+        }
+    }
 
-	enum InnerEnum {
-		ONE, TWO, THREE;
+    enum InnerEnum {
+        ONE, TWO, THREE;
 
-		enum InnerInnerEnum {
-			BIR, IKI, ÜC
-		}
-	}
+        enum InnerInnerEnum {
+            BIR, IKI, ÜC
+        }
+    }
 
-	interface InnerInterface {
+    interface InnerInterface {
 
-		interface InnerInnerInterface {
+        interface InnerInnerInterface {
 
-		}
-	}
+        }
+    }
 }
