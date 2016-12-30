@@ -1,9 +1,11 @@
 package methods;
 
 /**
- * This is a class for testing purposes of the Ecore metamodel extraction.
+ * This is an enum for testing purposes of the Ecore metamodel extraction.
  */
-public class ClassWithMethods {
+public enum EnumWithMethods {
+    A, B, C;
+
     public static void staticMethod() {
     }
 
