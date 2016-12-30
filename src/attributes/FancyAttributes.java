@@ -2,6 +2,7 @@ package attributes;
 
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Exchanger;
 
 import classifierPackage.SomeClass;
 import classifierPackage.SomeInterface;
@@ -10,6 +11,7 @@ import classifierPackage.SomeInterface;
  * This is a class for testing purposes of the Ecore metamodel extraction.
  */
 public class FancyAttributes {
+    public Exchanger<String> someWeirdExternalDataType;
     public List<String> someList;
     public Map<Integer, String> someMap;
     public Integer intObject;

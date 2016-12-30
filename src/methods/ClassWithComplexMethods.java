@@ -2,6 +2,7 @@ package methods;
 
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Exchanger;
 
 import classifierPackage.SomeClass;
 import classifierPackage.SomeEnum;
@@ -31,6 +32,10 @@ public class ClassWithComplexMethods {
     }
 
     public Map<Integer, String> mapMethod(Map<Integer, String> listA, Map<Integer, String> listB) {
+        return null;
+    }
+
+    public Exchanger<String> methodWithWeirdExternalDataTypes(Exchanger<String> someWeirdExternalDataType) {
         return null;
     }
 }
