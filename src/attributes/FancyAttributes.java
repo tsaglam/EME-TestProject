@@ -2,6 +2,7 @@ package attributes;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.Exchanger;
 
 import classifierPackage.SomeClass;
@@ -21,4 +22,5 @@ public class FancyAttributes {
     public int[] intArray;
     public char[][] charArray2D;
     public String[][][] stringArray3D;
+    public Set<Map< Object,List<String>>> bigBadSet;
 }
