@@ -5,9 +5,6 @@ package methods;
  */
 public interface InterfaceWithMethods {
 
-    public static void staticMethod() {
-    }
-
     public abstract void abstractMethod();
 
     void defaultMethod();
