@@ -31,7 +31,7 @@ public class ClassWithComplexMethods {
         return null;
     }
 
-    public Map<Integer, String> mapMethod(Map<Integer, String> listA, Map<Integer, String> listB) {
+    public Map<Integer, String> mapMethod(Map<Integer, String> mapA, Map<Integer, String> mapB) {
         return null;
     }
 
