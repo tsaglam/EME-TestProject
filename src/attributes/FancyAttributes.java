@@ -7,13 +7,17 @@ import java.util.concurrent.Exchanger;
 
 import classifierPackage.SomeClass;
 import classifierPackage.SomeInterface;
+import utility.CustomGenericClass;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.
  */
 public class FancyAttributes {
     public Exchanger<String> someWeirdExternalDataType;
+    public CustomGenericClass<String, SomeClass> complexReference;
     public List<String> someList;
+    public List<Exchanger<String>> listOfExternal;
+    public List<SomeClass> someClassList;
     public Map<Integer, String> someMap;
     public Integer intObject;
     public SomeClass someClass;
@@ -22,5 +26,5 @@ public class FancyAttributes {
     public int[] intArray;
     public char[][] charArray2D;
     public String[][][] stringArray3D;
-    public Set<Map< Object,List<String>>> bigBadSet;
+    public Set<Map<Object, List<String>>> bigBadSet;
 }
