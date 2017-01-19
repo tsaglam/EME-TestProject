@@ -11,12 +11,12 @@ import classifierPackage.SomeInterface;
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.
  */
-public class ClassWithComplexMethods {
+public class ComplexMethods {
 
-    public ClassWithComplexMethods() {
+    public ComplexMethods() {
     }
 
-    public ClassWithComplexMethods(int number, char character, String text) {
+    public ComplexMethods(int number, char character, String text) {
     }
 
     public char[] arrayMethod(int[][] intArray2D, double[][][] doubleArray3D) {
