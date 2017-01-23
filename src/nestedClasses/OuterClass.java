@@ -5,7 +5,7 @@ package nestedClasses;
  */
 public class OuterClass {
 
-    class InnerClass {
+    public class InnerClass {
 
         class InnerInnerClass {
 
