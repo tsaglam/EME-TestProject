@@ -31,7 +31,7 @@ public class FancyAttributes {
     public String[][][] stringArray3D;
     public Set<Map<Object, List<String>>> bigBadSet;
     
-    private class LocalInnerClass {
+    public class LocalInnerClass {
         
     }
 }
