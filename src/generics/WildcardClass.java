@@ -10,9 +10,9 @@ public class WildcardClass {
     public void wildcardMethod(List<?> list) {
     }
 
-    public void wildcardMethodUpper(List<? extends String> list) {
+    public void wildcardMethodLower(List<? super String> list) {
     }
 
-    public void wildcardMethodLower(List<? super String> list) {
+    public void wildcardMethodUpper(List<? extends String> list) {
     }
 }

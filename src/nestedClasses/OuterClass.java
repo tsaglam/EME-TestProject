@@ -6,24 +6,19 @@ package nestedClasses;
 public class OuterClass {
 
     public class InnerClass {
-
         class InnerInnerClass {
-
         }
     }
 
     enum InnerEnum {
         ONE, TWO, THREE;
-
         enum InnerInnerEnum {
             BIR, IKI, ÜC
         }
     }
 
     interface InnerInterface {
-
         interface InnerInnerInterface {
-
         }
     }
 }

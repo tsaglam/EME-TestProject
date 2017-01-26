@@ -6,8 +6,8 @@ package attributes;
 public class ClassWithAttributes {
     static int staticAttribute;
     int defaultAttribute;
-    public int publicAttribute;
-    protected int protectedAttribute;
     @SuppressWarnings("unused")
     private int privateAttribute;
+    protected int protectedAttribute;
+    public int publicAttribute;
 }

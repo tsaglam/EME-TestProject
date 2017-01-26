@@ -14,24 +14,23 @@ import nestedClasses.OuterClass.InnerClass;
  * This is a class for testing purposes of the Ecore metamodel extraction.
  */
 public class FancyAttributes {
-    public InnerClass innerClassAttribute;
-    public LocalInnerClass LocalInnerClassAttribute;
-    public Exchanger<String> someWeirdExternalDataType;
-    public CustomGenericClass<String, SomeClass> complexReference;
-    public List<String> someList;
-    public List<Exchanger<String>> listOfExternal;
-    public List<SomeClass> someClassList;
-    public Map<Integer, String> someMap;
-    public Integer intObject;
-    public SomeClass someClass;
-    public SomeInterface someInterface;
-    public String someStringWithAVeryLongNameWhichIsAbsolutlyRidiculous;
-    public int[] intArray;
-    public char[][] charArray2D;
-    public String[][][] stringArray3D;
     public Set<Map<Object, List<String>>> bigBadSet;
+    public char[][] charArray2D;
+    public CustomGenericClass<String, SomeClass> complexReference;
+    public InnerClass innerClassAttribute;
+    public int[] intArray;
+    public Integer intObject;
+    public List<Exchanger<String>> listOfExternal;
+    public LocalInnerClass LocalInnerClassAttribute;
+    public SomeClass someClass;
+    public List<SomeClass> someClassList;
+    public SomeInterface someInterface;
+    public List<String> someList;
+    public Map<Integer, String> someMap;
+    public String someStringWithAVeryLongNameWhichIsAbsolutlyRidiculous;
+    public Exchanger<String> someWeirdExternalDataType;
+    public String[][][] stringArray3D;
     
     public class LocalInnerClass {
-        
     }
 }
