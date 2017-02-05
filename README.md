@@ -1,2 +1,2 @@
 # EME-TestProject
-This simple Java project can be used to test the features of the project [EcoreMetamodelExtraction](https://github.com/tsaglam/EcoreMetamodelExtraction). The source code of this project has no other purpose than being extracted. The different packages correspond with the different features that can be extracted by the EcoreMetamodelExtraction.
+This simple Java project can be used to test the features of the project [EcoreMetamodelExtraction](https://github.com/tsaglam/EcoreMetamodelExtraction). The source code of this project has no other purpose than being used for the Ecore metamodel extraction. The different packages correspond with the different features that can be extracted by the Ecore metamodel extraction.
