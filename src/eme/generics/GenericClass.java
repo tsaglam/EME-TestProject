@@ -15,4 +15,12 @@ public class GenericClass<T, S extends List<String>, R extends Throwable & SomeI
     public Map<T, S> mapMethod(Map<T, S> mapA, Map<T, S> mapB) throws R {
         return null;
     }
+
+    public R someMethod(T myT, S myS) {
+        return null;
+    }
+
+    public <M> M genericMethod() {
+        return null;
+    }
 }

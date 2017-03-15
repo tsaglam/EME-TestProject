@@ -11,4 +11,8 @@ import eme.classifierPackage.SomeInterface;
 public interface GenericInterface<T, S extends SomeClass, R extends Throwable & SomeInterface> {
 
     public Map<T, S> mapMethod(Map<T, S> mapA, Map<T, S> mapB) throws R;
+    
+    public R someMethod(T myT, S myS);
+    
+    public <M> M genericMethod();
 }
