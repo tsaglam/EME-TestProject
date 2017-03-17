@@ -19,8 +19,4 @@ public class GenericClass<T, S extends List<String>, R extends Throwable & SomeI
     public R someMethod(T myT, S myS) {
         return null;
     }
-
-    public <M> M genericMethod() {
-        return null;
-    }
 }
