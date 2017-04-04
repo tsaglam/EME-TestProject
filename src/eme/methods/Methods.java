@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Exchanger;
 
-import eme.classifierPackage.SomeClass;
-import eme.classifierPackage.SomeEnum;
-import eme.classifierPackage.SomeInterface;
+import eme.types.SomeClass;
+import eme.types.SomeEnum;
+import eme.types.SomeInterface;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.

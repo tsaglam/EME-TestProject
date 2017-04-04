@@ -2,7 +2,7 @@ package eme.generics;
 
 import java.util.List;
 
-import eme.classifierPackage.SomeInterface;
+import eme.types.SomeInterface;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.

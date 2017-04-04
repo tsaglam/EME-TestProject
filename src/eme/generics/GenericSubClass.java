@@ -1,6 +1,6 @@
 package eme.generics;
 
-import eme.classifierPackage.SomeClass;
+import eme.types.SomeClass;
 import eme.utility.CustomGenericClass;
 
 /**

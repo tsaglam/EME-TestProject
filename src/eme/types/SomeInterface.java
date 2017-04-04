@@ -1,4 +1,4 @@
-package eme.classifierPackage;
+package eme.types;
 
 /**
  * This is a interface for testing purposes of the Ecore metamodel extraction.

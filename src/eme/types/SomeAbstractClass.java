@@ -1,8 +1,8 @@
-package eme.inheritance;
+package eme.types;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.
  */
-public class SuperSuperClass {
+public abstract class SomeAbstractClass {
 
 }

@@ -1,4 +1,4 @@
-package eme.realization;
+package eme.realizationRelations;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.

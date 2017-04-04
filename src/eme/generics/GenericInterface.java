@@ -2,8 +2,8 @@ package eme.generics;
 
 import java.util.Map;
 
-import eme.classifierPackage.SomeClass;
-import eme.classifierPackage.SomeInterface;
+import eme.types.SomeClass;
+import eme.types.SomeInterface;
 
 /**
  * This is a interface for testing purposes of the Ecore metamodel extraction.

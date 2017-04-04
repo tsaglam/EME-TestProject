@@ -1,4 +1,4 @@
-package eme.accessLevelModifier;
+package eme.modifiers;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.

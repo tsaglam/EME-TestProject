@@ -1,12 +1,12 @@
-package eme.attributes;
+package eme.fields;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.Exchanger;
 
-import eme.classifierPackage.SomeClass;
-import eme.classifierPackage.SomeInterface;
+import eme.types.SomeClass;
+import eme.types.SomeInterface;
 import eme.utility.CustomGenericClass;
 
 /**

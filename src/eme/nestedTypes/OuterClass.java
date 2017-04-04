@@ -1,4 +1,4 @@
-package eme.nestedClasses;
+package eme.nestedTypes;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.

@@ -1,8 +1,8 @@
-package eme.realization;
+package eme.realizationRelations;
 
 /**
  * This is a interface for testing purposes of the Ecore metamodel extraction.
  */
-public interface SuperInterface {
+public interface SubInterface extends SuperInterface {
 
 }

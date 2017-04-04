@@ -1,8 +1,8 @@
-package eme.nestedClasses;
+package eme.nestedTypes;
 
 import java.util.Map;
 
-import eme.nestedClasses.OuterClass.InnerClass;
+import eme.nestedTypes.OuterClass.InnerClass;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.

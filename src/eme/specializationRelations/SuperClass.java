@@ -1,6 +1,6 @@
-package eme.inheritance;
+package eme.specializationRelations;
 
-import eme.realization.BasicInterface;
+import eme.realizationRelations.BasicInterface;
 
 /**
  * This is a class for testing purposes of the Ecore metamodel extraction.
