@@ -26,7 +26,6 @@ public class Fields {
     private char[][] charArray2D;
     private String[][][] stringArray3D;
     private Date[] dateArray;
-    private List<String>[] arrayWithGenericArguments;
 
     // with generic arguments:
     private List<String> someList;
